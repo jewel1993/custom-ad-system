@@ -75,6 +75,7 @@ function fetch_all_ads(){
 	$table_name = $wpdb->prefix . 'ad_records';
 	$ad_queue = $wpdb->get_results("select * from ".$table_name." where is_active=1");
 	shuffle($ad_queue);
+	echo count($ad_queue);
 	$table_name = $wpdb->prefix . 'block_ads';
 	$blocked_ad_queue = $wpdb->get_results("select * from ".$table_name);
 	date_default_timezone_set('Asia/Kolkata');

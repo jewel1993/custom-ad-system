@@ -1,6 +1,6 @@
 {
  	"name" : "Custom Ad System",
- 	"version" : "1.0.4",
+ 	"version" : "1.0.5",
  	"download_url" : "https://codeload.github.com/jewel1993/custom-ad-system/zip/master",
  	"sections" : {
  		"description" : "This is the plugin to manage and display custom ads."
