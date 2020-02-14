@@ -23,7 +23,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__,
 	'unique-plugin-or-theme-slug'
 );
-$myUpdateChecker->getVcsApi()->enableReleaseAssets();
+
 function custom_ad_plugin_table_install() {
 	global $wpdb;
 	global $custom_ad_plugin_table_db_version;
