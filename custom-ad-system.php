@@ -9,7 +9,7 @@
 **/
 
 global $custom_ad_plugin_table_db_version;
-$custom_ad_plugin_table_db_version = '1.0.3';
+$custom_ad_plugin_table_db_version = '1.0';
 global $ad_queue;
 global $blocked_ad_queue;
 global $db_fetch_time;
@@ -19,7 +19,7 @@ include_once "blocked_ads_table.php";
 
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/jewel1993/custom-ad-system.git',
+	'https://raw.githubusercontent.com/jewel1993/custom-ad-system/master/plugin-update-checker/examples/plugin.json',
 	__FILE__,
 	'unique-plugin-or-theme-slug'
 );
