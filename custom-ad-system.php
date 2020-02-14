@@ -9,7 +9,7 @@
 **/
 
 global $custom_ad_plugin_table_db_version;
-$custom_ad_plugin_table_db_version = '1.0';
+$custom_ad_plugin_table_db_version = '1.0.3';
 global $ad_queue;
 global $blocked_ad_queue;
 global $db_fetch_time;
